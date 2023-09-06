@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+}
+  
+#title, #description {
+    margin: 1rem auto;
+    text-align: center;
+}
+  
+#survey-form {
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 2em;
+}
+  
+#name, #email, #number, #feedback {
+    display: block;
+    width: 95%;
+    padding: 2.5% 2.5%;
+    border-radius: 3px;
+}
+  
+#webdesign-label, #appdesign-label, #seo-label, #rate-label {
+    display: block;
+}
+  
+input[type="submit"]{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #8B8000;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius:  5px;
+}
+  
+fieldset {
+    border: 1px solid #8B8000;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 16px;
+}
+  
+input {
+    border: none;
+    margin: 10px 0px;
+}
+  
+#feedback {
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+  
+#textarea-label {
+    margin-top: 20px;
+}
+
+#webdesign, #appdesign, #seo {
+    margin-right: 10px;
+}
+
+#male-gender, #female-gender, #other-gender {
+    margin-right: 5px;
+    margin-left: 10px;
+}
