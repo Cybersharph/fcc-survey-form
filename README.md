@@ -14,7 +14,7 @@ This project is part of the **Responsive Web Design Certification** offered by [
 To view this project:
 
 1. Clone the repository:  
-   `git clone https://github.com/cybersharph/customer-feedback.git`
+   `git clone https://github.com/Cybersharph/fcc-survey-form`
 2. Open the `index.html` file in your browser.
 3. Feel free to modify and use code as you want.
 
