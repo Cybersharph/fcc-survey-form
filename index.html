@@ -25,49 +25,52 @@
             <label for="number" id="number-label"> What is your age?
                 <input type="number" id="number" min="15" max="150" placeholder="Your age...">
             </label>
-            <label for="male-gender"> Choose gender:
-                <input type="radio" id="male-gender" name="gender" value="male">Male
-            </label>
 
-            <label for="female-gender">
-                <input type="radio" id="female-gender" name="gender" value="female">Female
-            </label>
-            <label for="other-gender">
-                <input type="radio" id="other-gender" name="gender" value="other">Other
-            </label>
+            <div id="gender-group">
+                <label for="male-gender">
+                    <input type="radio" id="male-gender" name="gender" value="male">Male
+                </label>
+
+                <label for="female-gender">
+                    <input type="radio" id="female-gender" name="gender" value="female">Female
+                </label>
+
+                <label for="other-gender">
+                    <input type="radio" id="other-gender" name="gender" value="other">Other
+                </label>
+            </div>
         </fieldset>
         
         <fieldset>
             <p>Choose services you've used before</p>
-            <label for="webdesign" id="webdesign-label">
-                <input type="checkbox" id="webdesign" value="webdesign">Web Design
-            </label>
-            <label for="appdesign" id="appdesign-label">
-                <input type="checkbox" id="appdesign" value="appdesign">App Design
-            </label>
-            <label for="seo" id="seo-label">
-                <input type="checkbox" id="seo" value="seo">SEO Services
-            </label>
-            <br>
+            <div id="service-options">
+                <label for="webdesign" id="webdesign-label">
+                    <input type="checkbox" id="webdesign" value="webdesign">Web Design & Development
+                </label>
+                <label for="appdesign" id="appdesign-label">
+                    <input type="checkbox" id="appdesign" value="appdesign">App Design & Development
+                </label>
+                <label for="seo" id="seo-label">
+                    <input type="checkbox" id="seo" value="seo">Search Engine Optimization
+                </label>
+            </div>
 
             <label for="dropdown" id="rate-label">Rate us out of 5:
                 <select id="dropdown">
-                <option>1 out 5</option>
-                <option>2 out 5</option>
-                <option>3 out 5</option>
-                <option>4 out 5</option>
-                <option>5 out 5</option>
+                    <option>1 out of 5</option>
+                    <option>2 out of 5</option>
+                    <option>3 out of 5</option>
+                    <option>4 out of 5</option>
+                    <option>5 out of 5</option>
                 </select>
             </label>
-            <br>
-            <label for="feedback" id="textarea-label">Share Comment:
-                <textarea id="feedback" placeholder="Start typing..." rows="6" >
-                </textarea>
-            </label> 
+
+            <label for="feedback" id="textarea-label">Share your comments:
+                <textarea id="feedback" placeholder="Start typing..." rows="6"></textarea>
+            </label>
         </fieldset>
 
-        <input type="submit" value="SUBMIT" id="submit">
-
+        <input type="submit" value="Submit Feedback" id="submit">
     </form>
 </body>
 </html>
